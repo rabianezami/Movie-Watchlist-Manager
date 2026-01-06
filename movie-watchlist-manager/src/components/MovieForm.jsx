@@ -46,7 +46,7 @@ export default function MovieForm({ onAddMovie }) {
       </div>
       {error ? <p className="mt-1">{error}</p> : null}
 
-      <button className="px-4 py-2 mt-2 rounded-md bg-white border font-medium" onClick={submit}>
+      <button className="px-4 py-2 mt-2 rounded-md bg-white border border-gray-200 font-medium" onClick={submit}>
         Add Movie
       </button>
     </>
