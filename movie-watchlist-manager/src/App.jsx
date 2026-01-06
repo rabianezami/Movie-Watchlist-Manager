@@ -67,7 +67,7 @@ export default function App() {
         title="Watchlist"
         right={
           <select
-            className="border rounded px-2 py-1 text-sm"
+            className="border border-gray-200 rounded px-2 py-1 text-sm"
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
           >

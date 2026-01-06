@@ -14,13 +14,13 @@ export default function MovieItem({ movie, onDeleteMovie, onToggle }) {
 
             <div className="flex gap-1">
                 <button
-                    className="text-sm border px-3 py-1 rounded-lg"
+                    className="text-sm border border-gray-200 px-3 py-1 rounded-lg"
                     onClick={() => onDeleteMovie(movie.id)}
                 >
                     Delete
                 </button>
                 <button
-                    className="text-sm border px-2 py-1 rounded-lg"
+                    className="text-sm border border-gray-200 px-2 py-1 rounded-lg"
                     onClick={() => onToggle(movie.id)}
                 >
                     {movie.watched ? "Unwatch" : "Watch"}
